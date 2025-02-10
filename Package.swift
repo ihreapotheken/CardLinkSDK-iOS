@@ -19,8 +19,8 @@ let package = Package(
     targets: [
         .binaryTarget(
             name: "CardLinkSDK",
-            url: "https://github.com/ihreapotheken/CardLinkSDK-iOS/releases/download/1.3.9/CardLinkSDK-1.3.9.xcframework.zip",
-            checksum: "40591d699162330b80554596435614c449157c7e2ff4a6f8cc638832e36a751c"
+            url: "https://github.com/ihreapotheken/CardLinkSDK-iOS/releases/download/1.3.10/CardLinkSDK-1.3.10.xcframework.zip",
+            checksum: "f97c2946dfc4b7ffcef84424939ec05a8b7d8fd7315eb6db1ba3e907a78aa742"
         ),
         .target(
             name: "CardLinkSDKWrapper",
