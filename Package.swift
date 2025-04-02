@@ -19,13 +19,13 @@ let package = Package(
     targets: [
         .binaryTarget(
             name: "IACore",
-            url: "https://github.com/ihreapotheken/CardLinkSDK-iOS/releases/download/1.5.8/IACore-0.0.9.xcframework.zip",
-            checksum: "0e0531115cd59cfe1bd2557eebbd65a4931e7586ab685d05dd7265744a2112d5"
+            url: "https://github.com/ihreapotheken/CardLinkSDK-iOS/releases/download/1.5.9/IACore-0.0.15.xcframework.zip",
+            checksum: "696fa73382e951a74e4dbe4b609d4dca9771e0320b9e563d5fc6efc2845f1f0e"
         ),
         .binaryTarget(
             name: "IACardLink",
-            url: "https://github.com/ihreapotheken/CardLinkSDK-iOS/releases/download/1.5.8/IACardLink-1.5.8.xcframework.zip",
-            checksum: "3e55092738d7314714029c301bb564b86566fa455d5d93049d557a2f06da3810"
+            url: "https://github.com/ihreapotheken/CardLinkSDK-iOS/releases/download/1.5.9/IACardLink-1.5.9.xcframework.zip",
+            checksum: "2af071c927c7c27a0d8c22bf12a27408607723d0d13c6b729c857e62a55d2d43"
         ),
         .target(
             name: "IACardLinkWrapper",
