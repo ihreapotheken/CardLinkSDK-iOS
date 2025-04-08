@@ -8,6 +8,6 @@ Pod::Spec.new do |s|
   s.source           = { :http => 'https://github.com/ihreapotheken/CardLinkSDK-iOS/releases/download/1.5.8/IACardLink-1.5.8.xcframework.zip' }
   s.ios.deployment_target = '15.0'
   s.vendored_frameworks = ['IACardLink.xcframework']
-  s.dependency 'GematikOpenSSL'
+  s.dependency 'GematikOpenSSL', '4.3.0'
   s.dependency 'IACore', '0.0.9'
 end
