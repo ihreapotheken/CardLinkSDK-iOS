@@ -14,18 +14,18 @@ let package = Package(
             targets: ["IACardLinkWrapper"])
     ],
     dependencies: [
-        .package(url: "https://github.com/gematik/OpenSSL-Swift", from: "4.0.0"),
+        .package(url: "https://github.com/gematik/OpenSSL-Swift", from: "4.3.1"),
     ],
     targets: [
         .binaryTarget(
             name: "IACore",
-            url: "https://github.com/ihreapotheken/CardLinkSDK-iOS/releases/download/1.6.4/IACore-0.0.20.xcframework.zip",
-            checksum: "72c3ba3a234c1fb5ff3b0295b8a52c47babab7b2d42418e3e40507eaf397bac1"
+            url: "https://github.com/ihreapotheken/CardLinkSDK-iOS/releases/download/2.0.0/IACore-0.0.23.xcframework.zip",
+            checksum: "3b8bddddaae2d5980956a02bccee168e4c136eb78231c4e5720ac8122e4865e1"
         ),
         .binaryTarget(
             name: "IACardLink",
-            url: "https://github.com/ihreapotheken/CardLinkSDK-iOS/releases/download/1.6.4/IACardLink-1.6.4.xcframework.zip",
-            checksum: "2b535d97d17ea92d23a234c4f1d53aa53d8ae5adf5bae440186a2e79353013a3"
+            url: "https://github.com/ihreapotheken/CardLinkSDK-iOS/releases/download/2.0.0/IACardLink-2.0.0.xcframework.zip",
+            checksum: "b6ac744292a80fbd12addda1f5e2f182485aa86e3c343e181b0a52ab1547dd91"
         ),
         .target(
             name: "IACardLinkWrapper",
